@@ -1,4 +1,4 @@
-import { developerTeam, marketingTeam } from "../constant/employee";
+import { marketingTeam } from "../constant/employee";
 
 const MarketingTeam = () => {
   return (
