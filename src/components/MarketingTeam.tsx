@@ -1,6 +1,8 @@
 import { marketingTeam } from "../constant/employee";
 
 const MarketingTeam = () => {
+
+  // marketing
   return (
     <div className="flex flex-col  justify-between py-10 gap-5">
       <button className="text-white  bg-secondary  self-center px-20 py-3 rounded-md font-bold">
