@@ -17,19 +17,19 @@ export const Leadership = [
 export const vipLeaders = [
   {
     id: 1,
-    name: "VP name",
+    name: "[VP name]",
     position: "VP,Development & Growth",
     profile: avatar,
   },
   {
     id: 2,
-    name: "VP Name",
+    name: "[VP Name]",
     position: "VP,Sales& Marketing",
     profile: avatar,
   },
   {
     id: 3,
-    name: "VP Name",
+    name: "[VP Name]",
     position: "VP,Finance & Operations",
     profile: avatar,
   },

@@ -7,7 +7,7 @@ export const Team = () => {
       <button className="text-white  bg-secondary  self-center px-20 py-3 rounded-md font-bold">
         Leadership/Management Team
       </button>
-      <div className="flex flex-row items-center justify-center ">
+      <div className="flex md:flex-row items-center justify-center  sm:flex-col xs:flex-col">
         {/* leadership team */}
         {Leadership.map((lead) => (
           <div
@@ -20,7 +20,7 @@ export const Team = () => {
           </div>
         ))}
       </div>
-      <div className="flex flex-row items-center justify-evenly xs:flex-col">
+      <div className="flex md:flex-row items-center justify-evenly sm:flex-col xs:flex-col">
         {vipLeaders.map((vp) => (
           <div
             className="flex flex-col items-center justify-center"

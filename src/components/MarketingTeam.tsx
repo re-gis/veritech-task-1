@@ -5,9 +5,9 @@ const MarketingTeam = () => {
   // marketing
   return (
     <div className="flex flex-col  justify-between py-10 gap-5">
-      <div className="flex items-center justify-center">
+      <div className="flex items-center justify-center ">
         <div className="w-[60%] flex justify-end">
-        <button className="text-white bg-secondary px-20 py-3 rounded-md font-bold">
+        <button className="text-white bg-secondary md:px-20  sm:px-12 xs:px-10 py-3 rounded-md font-bold">
           Sales and Marketing
         </button>
         </div>
@@ -16,7 +16,7 @@ const MarketingTeam = () => {
         </div>
       </div>
 
-      <div className="flex flex-row items-center justify-between ">
+      <div className="flex  md:flex-row sm:flex-col xs:flex-col items-center justify-between ">
         {marketingTeam[0].map((market) => (
           <div
             key={market.id}
@@ -28,7 +28,7 @@ const MarketingTeam = () => {
           </div>
         ))}
       </div>
-      <div className="flex flex-row items-center justify-evenly ">
+      <div className="flex  md:flex-row sm:flex-col xs:flex-col items-center justify-evenly ">
         {marketingTeam[1].map((market) => (
           <div
             key={market.id}

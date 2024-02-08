@@ -10,12 +10,12 @@ const DeveloperTeam = () => {
           <img src={svg} alt="svg" className="rotate-180" />
         </div>
         <div className="w-[60%] flex justify-start">
-          <button className="text-white bg-secondary px-20 py-3 rounded-md font-bold">
-            Sales and Marketing
+          <button className="text-white bg-secondary md:px-20 sm:px-12 xs:px-10 py-3 rounded-md font-bold">
+            Development Team
           </button>
         </div>
       </div>
-      <div className="flex flex-row items-center justify-between ">
+      <div className="flex md:flex-row sm:flex-col xs:flex-col items-center justify-between ">
         {developerTeam[0].map((developer) => (
           <div
             key={developer.id}
@@ -27,7 +27,7 @@ const DeveloperTeam = () => {
           </div>
         ))}
       </div>
-      <div className="flex flex-row items-center justify-evenly ">
+      <div className="flex  md:flex-row sm:flex-col xs:flex-col items-center justify-evenly ">
         {developerTeam[1].map((developer) => (
           <div
             key={developer.id}
