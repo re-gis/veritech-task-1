@@ -2,11 +2,13 @@ import DeveloperTeam from "./components/DeveloperTeam";
 import Header from "./components/Header";
 import MarketingTeam from "./components/MarketingTeam";
 import { Team } from "./components/Team";
+import svg from "./assets/svg1.svg"
 
 function App() {
   return (
-    <div>
-      <div className="flex flex-col px-20 py-5">
+    <div className="flex flex-col">
+      <img src={svg} alt="svg"  className="self-end"/>
+      <div className="flex flex-col  py-5">
         <div>
           <Header />
         </div>
@@ -20,6 +22,8 @@ function App() {
           <MarketingTeam />
         </div>
       </div>
+      <img src={svg} alt="svg"  className="self-start rotate-180"/>
+
     </div>
   );
 }

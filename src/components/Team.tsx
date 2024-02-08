@@ -20,7 +20,7 @@ export const Team = () => {
           </div>
         ))}
       </div>
-      <div className="flex flex-row items-center justify-evenly">
+      <div className="flex flex-row items-center justify-evenly xs:flex-col">
         {vipLeaders.map((vp) => (
           <div
             className="flex flex-col items-center justify-center"
