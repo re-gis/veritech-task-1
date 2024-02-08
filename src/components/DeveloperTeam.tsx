@@ -1,6 +1,7 @@
 import { developerTeam } from "../constant/employee";
 
 const DeveloperTeam = () => {
+  // developer component 
   return (
     <div className="flex flex-col  justify-between py-10 gap-5">
       <button className="text-white  bg-secondary  self-center px-20 py-3 rounded-md font-bold">Development Team</button>
