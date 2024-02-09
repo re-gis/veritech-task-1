@@ -2,6 +2,7 @@ import DeveloperTeam from "./components/DeveloperTeam";
 import Header from "./components/Header";
 import MarketingTeam from "./components/MarketingTeam";
 import { Team } from "./components/Team";
+
 import svg from "./assets/svg1.svg"
 
 function App() {
